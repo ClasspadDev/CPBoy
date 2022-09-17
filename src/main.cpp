@@ -2208,7 +2208,7 @@ void show_credits_dialog()
 		print_string("Credits", 135, dialog_y + 5, 0, dialog_border, 0x0000, 1);
 
 		// draw subtitle
-		print_string("Version 0.0.2-alpha", 100, dialog_y + 23, 0, subtitle_fg, 0x0000, 1);
+		print_string("Version 0.1.0-alpha", 100, dialog_y + 23, 0, subtitle_fg, 0x0000, 1);
 
 		// draw credits
 		print_string("Built on github.com/deltabeard/Peanut-GB", dialog_x + 8, dialog_y + 51, 0, 0xFFFF, 0x0000, 1);
