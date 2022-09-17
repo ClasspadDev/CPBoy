@@ -1,0 +1,29 @@
+name: Build CPBoy
+on:
+  push:
+    branches:
+      - main
+    paths-ignore: 
+      - '**.bin'
+      - '**.hhk'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    # Build on server
+    - name: Executing SSH commands to Build and Push
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.IP }}
+        username: ${{ secrets.USER }}
+        password: ${{ secrets.PRIVATE_KEY }}
+        port: ${{ secrets.PORT }}
+        script: |
+          cd /home/sean/actions/CPBoy
+          git fetch --all
+          git reset --hard origin/main
+          make
+          git add CPBoy.bin CPBoy.hhk
+          git commit -m "Compiled CPBoy"
+          git push https://${{ secrets.GH_USER }}:${{ secrets.GH_AUTH }}@github.com/ClasspadDev/CPBoy.git
+          
