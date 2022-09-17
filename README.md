@@ -45,3 +45,4 @@ This project is licensed under the MIT License.
 | Game Title | Status   | Updated  |
 | ---------- | -------- | -------- |
 | Tetris     | Playable | 17/09/22 |
+| Tetris2    | Playable | 17/09/22 |
