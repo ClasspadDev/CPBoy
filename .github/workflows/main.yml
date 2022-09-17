@@ -6,6 +6,8 @@ on:
     paths-ignore: 
       - '**.bin'
       - '**.hhk'
+      - '**.yml'
+      - '**.md'
 jobs:
   build:
     runs-on: ubuntu-latest
