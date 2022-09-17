@@ -22,7 +22,7 @@ jobs:
           cd /home/sean/actions/CPBoy
           git fetch --all
           git reset --hard origin/main
-          make
+          make clean && make
           git add CPBoy.bin CPBoy.hhk
           git commit -m "Compiled CPBoy"
           git push https://${{ secrets.GH_USER }}:${{ secrets.GH_AUTH }}@github.com/ClasspadDev/CPBoy.git
