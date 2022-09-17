@@ -39,3 +39,9 @@ If you want to build the emulator from source you will need the [Hollyhock-2 SDK
 ## License
 
 This project is licensed under the MIT License.
+
+## Compatability
+
+| Game Title | Status   | Updated  |
+| ---------- | -------- | -------- |
+| Tetris     | Playable | 17/09/22 |
