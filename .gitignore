@@ -8,5 +8,5 @@ peanut-debug
 tags
 .vscode
 obj
-*.hhk
-*.bin
+*.hhk # now that actions is added, keep this
+*.bin # now that actions is added, keep this
