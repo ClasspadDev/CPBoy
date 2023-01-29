@@ -46,3 +46,15 @@ This project is licensed under the MIT License.
 | ---------- | -------- | -------- |
 | Tetris     | Playable | 17/09/22 |
 | Tetris 2   | Playable | 17/09/22 |
+|Pokemon Red |Unplayable| 29/01/23 |
+|Mario Land 2|Playable|29/01/23|
+|Mario Land|Playable|29/01/23|
+|Pokemon Blue|Playable|29/01/23|
+|Turok 2|occasional crashes|29/01/23|
+|Pokemon Gold/Silver|Playable|29/01/23|
+|Metroid 2|Visual Bugs|29/01/23|
+|The Legend of Zelda Links Awakening|Playable|29/01/23|
+|Donkey Kong Land|Playable|29/01/23|
+|Kirby's Dreamland|Playable|29/01/23|
+|Wordle|Playable|29/01/23|
+|Pokemon Blue Randomizer|Playable|29/01/23|
