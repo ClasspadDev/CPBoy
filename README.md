@@ -46,7 +46,7 @@ This project is licensed under the MIT License.
 | ---------- | -------- | -------- |
 | Tetris     | Playable | 17/09/22 |
 | Tetris 2   | Playable | 17/09/22 |
-|Pokemon Red | Unplayble| 29/01/23 |
+|Pokemon Red |Unplayable| 29/01/23 |
 |Mario Land 2|Playable|29/01/23|
 |Mario Land|Playable|29/01/23|
 |Pokemon Blue|Playable|29/01/23|
